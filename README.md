@@ -15,7 +15,9 @@ This folder contains:
 - `yopay/Yo_Uganda_Public_Sandbox_Certificate.crt`
 - `yopay/whmcs.json`
 
-The PDFs in this folder are the local Yo API reference documents used while building the module.
+## Checkout Preview
+
+![Yo Pay checkout preview](docs/yo-pay-checkout.png)
 
 ## Install Into WHMCS
 
@@ -62,6 +64,7 @@ The resulting number is sent to Yo in the format `2567XXXXXXXX`.
 6. The customer approves the request on the phone.
 7. Yo sends a signed success callback to WHMCS.
 8. WHMCS marks the invoice as paid.
+9. The client is redirected back automatically after successful payment confirmation.
 
 ## Callbacks
 
