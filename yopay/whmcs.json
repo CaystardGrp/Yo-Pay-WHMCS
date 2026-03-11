@@ -1,0 +1,31 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "yopay",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "Yo Pay Mobile Money",
+    "tagline": "Accept Yo Pay mobile money payments inside WHMCS.",
+    "long": "Yo Pay Mobile Money adds a WHMCS invoice checkout flow for requesting mobile money payments through Yo Payments.",
+    "features": [
+      "Invoice payment requests",
+      "Yo signed callback verification",
+      "Sandbox and production support"
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https://www.caystard.group/",
+    "docs_url": "https://github.com/CaystardGrp/Yo-Pay-WHMCS"
+  },
+  "authors": [
+    {
+      "name": "Kayima Mark (Caystard Group Intl.)",
+      "homepage": "https://www.caystard.group/",
+      "role": "developer"
+    }
+  ]
+}
